@@ -107,6 +107,10 @@
    4.0
   ```
 
+* `Base.ones(x::NDArray)` for creating an one-ed `NDArray`. (#TBD)
+
+* `Base.zeros(x::NDArray)` for creating a zero-ed `NDArray`. (#TBD)
+
 ## API Changes
 
 ### `NDArray`
@@ -121,7 +125,6 @@
     * `arcsin(x)` -> `asin.(x)`
     * `arccos(x)` -> `acos.(x)`
     * `arctan(x)` -> `atan.(x)`
-
 
 # v0.3.0 (2017.11.16)
 
